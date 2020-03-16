@@ -57,11 +57,16 @@ public class RandomPatrol : MonoBehaviour
             restartPanel.SetActive(true);
 
             theScoreManager.ScoreIncreasing = false;
+
+           
         }
     }
 
     float GetDifficultyPercent() {
         return Mathf.Clamp01(Time.timeSinceLevelLoad / secondsToMaxDifficulty);
     }
-
+    public void PausePanel()
+    {
+       
+    }
 }

@@ -543,7 +543,7 @@ MonoBehaviour:
   m_Color: {r: 0.94117653, g: 0.94117653, b: 0.94117653, a: 1}
   m_Intensity: 0.1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000009f5de21a0136dff6
+  m_ApplyToSortingLayers: 9f5de21a0136dff600000000
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -1153,17 +1153,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6a5d6052428ebc245b4d89eaafceb460, type: 3}
+    m_Font: {fileID: 12800000, guid: 93e02274c0d26e24db9b1f8fd3077d3a, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 240
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1491,7 +1491,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6a5d6052428ebc245b4d89eaafceb460, type: 3}
+    m_Font: {fileID: 12800000, guid: 93e02274c0d26e24db9b1f8fd3077d3a, type: 3}
     m_FontSize: 200
     m_FontStyle: 0
     m_BestFit: 0
@@ -1834,7 +1834,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6a5d6052428ebc245b4d89eaafceb460, type: 3}
+    m_Font: {fileID: 12800000, guid: 93e02274c0d26e24db9b1f8fd3077d3a, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -2153,7 +2153,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6a5d6052428ebc245b4d89eaafceb460, type: 3}
+    m_Font: {fileID: 12800000, guid: 93e02274c0d26e24db9b1f8fd3077d3a, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -2254,7 +2254,7 @@ PrefabInstance:
     - target: {fileID: 789844211024830166, guid: a323c2b121fbf1f48a7e3afbb70e15fb,
         type: 3}
       propertyPath: m_Intensity
-      value: 1.3
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a323c2b121fbf1f48a7e3afbb70e15fb, type: 3}

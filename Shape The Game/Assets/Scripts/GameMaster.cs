@@ -7,6 +7,7 @@ public class GameMaster : MonoBehaviour
 {
     public ScoreManager theScoreManager;
 
+
     public void Start()
     {
         theScoreManager = FindObjectOfType<ScoreManager>();
@@ -35,5 +36,10 @@ public class GameMaster : MonoBehaviour
         {
             theScoreManager.ScoreIncreasing = false;
         }
+    }
+
+    public void info()
+    {
+        SceneManager.LoadScene("info");
     }
 }

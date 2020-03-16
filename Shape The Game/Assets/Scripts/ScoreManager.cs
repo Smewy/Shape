@@ -42,7 +42,7 @@ public class ScoreManager : MonoBehaviour
         Score.text = "Score: " + Mathf.Round (ScoreCount);
         HiScore.text = "High Score: " + Mathf.Round (HiScoreCount);
 
-        if(ScoreCount > 5)
+        if(ScoreCount > 50)
         {
             GameMaster.GoToGameScene2();
         }

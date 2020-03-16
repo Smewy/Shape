@@ -6,8 +6,8 @@ public class SpawnCoins : MonoBehaviour
 {
 
 
+    public static RandomPatrol RandomPatrol => new RandomPatrol();
 
-  
 
     public GameObject Coin;
     public float RespawnTime = 1.0f;
@@ -33,7 +33,6 @@ public class SpawnCoins : MonoBehaviour
             spawnCoin();
         }
     }
-
     // Update is called once per frame
     void Update()
     {
