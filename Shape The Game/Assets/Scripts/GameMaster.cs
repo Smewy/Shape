@@ -21,7 +21,13 @@ public class GameMaster : MonoBehaviour
         SceneManager.LoadScene("level2");
 
     }
-    public void Restart() {
+    public void GoToGameScene3()
+    {
+        SceneManager.LoadScene("level3");
+    }
+
+
+        public void Restart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         theScoreManager.ScoreCount = 0;
@@ -41,5 +47,9 @@ public class GameMaster : MonoBehaviour
     public void info()
     {
         SceneManager.LoadScene("info");
+    }
+    public void square()
+    {
+        SceneManager.LoadScene("square");
     }
 }
