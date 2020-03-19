@@ -44,7 +44,7 @@ public class ScoreManager : MonoBehaviour
 
         if(ScoreCount > 50)
         {
-            GameMaster.GoToGameScene2();
+            
         }
 
     }
