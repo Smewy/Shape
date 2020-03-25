@@ -883,7 +883,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 2.4
+  m_Time: 0.4
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -2050,7 +2050,7 @@ PrefabInstance:
     - target: {fileID: 789844211024830167, guid: a323c2b121fbf1f48a7e3afbb70e15fb,
         type: 3}
       propertyPath: m_Time
-      value: 2.4
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a323c2b121fbf1f48a7e3afbb70e15fb, type: 3}
